@@ -19,7 +19,7 @@ dentro de la misma carpeta.
 
 Una vez hecho esto, el terminal se queda esperando a que introduzcamos que acciones queremos realizar.
 
-Las acciones permitidas se encuentra en la carpeta de Documentación, tanto en el enunciado cómo en los juegos de pruebas.
+Las acciones permitidas se encuentra en los ejemplos de la carpeta de Documentación, tanto los que están en el enunciado cómo en los juegos de pruebas.
 
 
 # Otros
