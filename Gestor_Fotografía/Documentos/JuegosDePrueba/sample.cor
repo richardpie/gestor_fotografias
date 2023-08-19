@@ -1,0 +1,190 @@
+# lee_album Paris ...
+Album Paris leido.
+# agrega_foto img9 ...
+Foto img9 agregada al album en curso.
+# agrega_foto img23 ...
+El album en curso ya contiene una foto con el identificador img23
+# elimina_foto img11
+Foto img11 eliminada del album en curso.
+# nr_fotos
+5
+# agrega_album
+Album en curso agregado a la coleccion.
+Album en curso, despues de agregar:
+Paris
+  img12 15/8/2019 2 Juan Laura
+  img13 15/6/2019 1 Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# lee_album Londres ...
+Album Londres leido.
+# agrega_album
+Album en curso agregado a la coleccion.
+Album en curso, despues de agregar:
+Londres
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img13 15/6/2019 1 Laura
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+# agrega_foto_coleccion img42 ...
+Ya existe una foto con el mismo id. No se puede agregar.
+# agrega_foto_coleccion img24 ...
+Foto img24 agregada a la coleccion.
+# imprime_coleccion
+ALL
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img13 15/6/2019 1 Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img24 21/10/2019 2 Laura Maria
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+  img9 14/8/2019 2 Laura TorreEiffel
+Londres
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img13 15/6/2019 1 Laura
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+Paris
+  img12 15/8/2019 2 Juan Laura
+  img13 15/6/2019 1 Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# modifica_foto_coleccion img13 ...
+Foto img13 modificada en la coleccion.
+# imprime_coleccion
+ALL
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img24 21/10/2019 2 Laura Maria
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+  img9 14/8/2019 2 Laura TorreEiffel
+Londres
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img13 15/7/2019 2 LondonEye Westminster
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+Paris
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# busca_por_fecha 15/8/2019-17/8/2019 ALL resultadobusquedafecha
+resultadobusquedafecha
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+# imprime_album_en_curso
+resultadobusquedafecha
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+# busca_por_fecha 15/8/2019-17/8/2019 Roma resultadobusquedafecha
+No existe un album con el id dado.
+# busca_por_etiqueta Laura Paris Laura_en_Paris
+Laura_en_Paris
+  img12 15/8/2019 2 Juan Laura
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# imprime_album_en_curso
+Laura_en_Paris
+  img12 15/8/2019 2 Juan Laura
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# busca_por_etiqueta Laia ALL Laia
+Laia
+# imprime_album_en_curso
+Laia
+# busca_por_etiqueta Laia Roma Laia_en_Roma
+No existe un album con el id dado.
+# imprime_album_en_curso
+Laia
+# evalua_consulta_booleana Laura_en_Paris Laura_TorreEiffel
+# BEGIN_QUERY ... END_QUERY
+No existe un album con el id dado.
+# evalua_consulta_booleana Paris Laura_TorreEiffel
+# BEGIN_QUERY ... END_QUERY
+Laura_TorreEiffel
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# imprime_album_en_curso
+Laura_TorreEiffel
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# agrega_album
+Album en curso agregado a la coleccion.
+Album en curso, despues de agregar:
+Laura_TorreEiffel
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# imprime_coleccion
+ALL
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img24 21/10/2019 2 Laura Maria
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+  img9 14/8/2019 2 Laura TorreEiffel
+Laura_TorreEiffel
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+Londres
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img13 15/7/2019 2 LondonEye Westminster
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+Paris
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# elimina_album Laura_TorreEiffel
+Album eliminado de la coleccion.
+# imprime_coleccion
+ALL
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img24 21/10/2019 2 Laura Maria
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+  img9 14/8/2019 2 Laura TorreEiffel
+Londres
+  img11 15/8/2019 4 Laura Maria TowerBridge Westminster
+  img13 15/7/2019 2 LondonEye Westminster
+  img42 20/10/2019 2 Juan LondonEye
+  img43 20/10/2019 3 Juan Maria Westminster
+Paris
+  img12 15/8/2019 2 Juan Laura
+  img13 15/7/2019 2 LondonEye Westminster
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+  img9 14/8/2019 2 Laura TorreEiffel
+# evalua_consulta_booleana ALL resultado
+# BEGIN_QUERY ... END_QUERY
+resultado
+  img12 15/8/2019 2 Juan Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel
+# evalua_consulta_booleana ALL resultado
+# BEGIN_QUERY ... END_QUERY
+resultado
+  img12 15/8/2019 2 Juan Laura
+  img14 15/8/2019 2 ChampsElysees Juan
+  img23 16/8/2019 3 Juan Laura TorreEiffel

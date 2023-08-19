@@ -1,0 +1,45 @@
+lee_album Paris 5
+img11 15 8 2019 2 Maria ChampsElysees
+img12 15 8 2019 2 Juan Laura
+img13 15 6 2019 1 Laura
+img14 15 8 2019 2 Juan ChampsElysees
+img23 16 8 2019 3 Laura Juan TorreEiffel
+agrega_foto img9 14 8 2019 2 Laura TorreEiffel
+agrega_foto img23 16 8 2019 2 Juan TorreEiffel
+elimina_foto img11
+nr_fotos
+agrega_album
+lee_album Londres 4
+img42 20 10 2019 2 Juan LondonEye
+img43 20 10 2019 3 Maria Juan Westminster
+img13 15 6 2019 2 LondonEye Westminster
+img11 15 8 2019 4 Laura Maria Westminster TowerBridge
+agrega_album
+agrega_foto_coleccion img42 21 10 2019 2 Juan Laura
+agrega_foto_coleccion img24 21 10 2019 2 Maria Laura
+imprime_coleccion
+modifica_foto_coleccion img13 15 7 2019 2 LondonEye Westminster
+imprime_coleccion
+busca_por_fecha 15 8 2019 17 8 2019 ALL resultadobusquedafecha
+imprime_album_en_curso
+busca_por_fecha 15 8 2019 17 8 2019 Roma resultadobusquedafecha
+busca_por_etiqueta Laura Paris Laura_en_Paris
+imprime_album_en_curso
+busca_por_etiqueta Laia ALL Laia
+imprime_album_en_curso
+busca_por_etiqueta Laia Roma Laia_en_Roma
+imprime_album_en_curso
+evalua_consulta_booleana Laura_en_Paris Laura_TorreEiffel
+BEGIN_QUERY TAG TorreEiffel END_QUERY
+evalua_consulta_booleana Paris Laura_TorreEiffel
+BEGIN_QUERY TAG Laura and TAG TorreEiffel END_QUERY 
+imprime_album_en_curso
+agrega_album
+imprime_coleccion
+elimina_album Laura_TorreEiffel
+imprime_coleccion
+evalua_consulta_booleana ALL resultado
+BEGIN_QUERY ( ( TAG Laura or TAG Juan ) and DATE 15 8 2019 16 8 2019 ) and not TAG Westminster END_QUERY  
+evalua_consulta_booleana ALL resultado
+BEGIN_QUERY ( ( TAG Laura OR TAG Juan ) AND DATE 15 8 2019 16 8 2019 ) AND NOT TAG Westminster END_QUERY  
+acabar
