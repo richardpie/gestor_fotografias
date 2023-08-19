@@ -32,7 +32,7 @@ doxygen Doxyfile
 
 Para ver la documentación generada accedemos con el navegador al archivo:
 
--index.html
+- index.html
 
 # Autor
 
